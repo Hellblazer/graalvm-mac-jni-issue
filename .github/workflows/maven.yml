@@ -24,3 +24,5 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Build with Maven
         run: mvn -batch-mode --update-snapshots clean install --file pom.xml
+
+        
